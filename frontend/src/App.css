@@ -73,6 +73,22 @@ main {
   width: 80px;
   font-size: 18px;
 }
+.welcome {
+  background-color: lightgray;
+  height: 100px;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 3px;
+}
+.welcome .welcomeTitle {
+  margin:3px 4px;
+}
+ .welcome .welcometext {
+  margin-top: 6px;
+  font-size: 16px;
+  padding-top: 3px;
+ }
 
 @media screen and (max-width: 900px) {
   .LogoContainer {
@@ -96,10 +112,8 @@ main {
   .welcome {
     margin:30px 1px;
     height:110px;
-    background-color: red;
-
   }
-  .welcometext {
-    font-size: 13px;
+  .welcome .welcometext {
+    font-size: 17px;
   }
 }
