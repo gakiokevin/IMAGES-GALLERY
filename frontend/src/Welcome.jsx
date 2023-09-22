@@ -12,9 +12,9 @@
 
 const Welcome = ()=>{
    return (
-      <div style={style}>
-         <h2 style={{margin:'3px 4px'}}>ImagesGallery</h2>
-         <p style={{marginTop:'10px',fontSize:'16px'}}>Welcome to ImagesGallery, this is a simple web application the fetches images from UNSPLASH API.To get started, search any image on the input field above</p>
+      <div style={style} className="welcome">
+         <h2 style={{margin:'3px 4px'}} className="welcomeTitle">ImagesGallery</h2>
+         <p style={{marginTop:'12px',fontSize:'16px'}} className="welcometext">Welcome to ImagesGallery, this is a simple web application the fetches images from UNSPLASH API.To get started, search any image on the input field above</p>
       </div>
    )
 }

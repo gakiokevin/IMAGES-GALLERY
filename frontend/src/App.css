@@ -83,7 +83,6 @@ main {
     grid-template-columns: repeat(2, 49%);
     grid-row-gap:40px;
     margin-bottom: 100px;
-    background-color: brown;
     padding-left: 9px;
   }
   .imageCard {
@@ -94,5 +93,11 @@ main {
   .imageCard img {
     height:75%;
   }
-  
+  .welcome {
+    margin:30px 1px;
+
+  }
+  .welcometext {
+    font-size: 13px;
+  }
 }
