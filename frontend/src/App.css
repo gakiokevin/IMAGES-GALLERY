@@ -96,6 +96,7 @@ main {
   .welcome {
     margin:30px 1px;
     height:110px;
+    background-color: red;
 
   }
   .welcometext {
