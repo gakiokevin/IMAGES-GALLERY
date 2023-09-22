@@ -1,0 +1,9 @@
+.LogoContainer {
+   background-color: lightblue;
+   min-width: 200px;
+   padding: 6px;
+}
+.logoName {
+  font-size: 30px;
+  margin-left: 20px;
+}
